@@ -10,9 +10,7 @@ if inp == "y":
     else:
         for i in range(row):
             stats = raw_stats[i]
-            print("Stat Value: " + str(sum(stats)) + "\nrolls " + str(stats) + " removed lowest roll " + str(min(stats)) + "\n")  
+            print("Stat Value: " + str(fin_stats[i]) + "\nrolls " + str(stats) + " removed lowest roll " + str(min(stats)) + "\n")  
 
-            
-    
 else:
     print([15,14,13,12,10,8]) 
